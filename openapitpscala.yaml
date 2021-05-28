@@ -1,0 +1,171 @@
+openapi: 3.0.1
+info:
+  title: Api  Akka-http
+  description: Une API très simplifiée pour gérer les étudiants
+  version: 1.0.0
+servers:
+- url: http://localhost:8080
+paths:
+  /students:
+    get:
+      summary: List all students
+      operationId: listStudents
+      tags:
+        - students
+      parameters:
+        - name: limit
+          in: query
+          description: How many items to return at one time (max 100)
+          required: false
+          schema:
+            type: integer
+            format: int32
+      responses:
+        200:
+          description: An paged array of students
+          headers:
+            x-next:
+              description: A link to the next page of responses
+              schema:
+                type: string
+          content:
+            application/json:    
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Student'
+  /students/{lastname}/{firstname}/{address}/{birthdate}:
+   post:
+      summary: Create a student
+      operationId: createStudents
+      tags:
+        - students
+      parameters:
+      - name: lastname
+        in: path
+        description: lastname
+        required: true
+        schema:
+          type: string
+      - name: firstname
+        in: path
+        description: firstname
+        required: true
+        schema:
+          type: string
+      - name: address
+        in: path
+        description: address
+        required: true
+        schema:
+          type: string
+      - name: birthdate
+        in: path
+        description: birthdate
+        required: true
+        schema:
+          type: string
+          format: date
+      responses:
+        200:
+          description:  student
+          content:
+            application/json:    
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Student'
+  /students/{studentId}:
+    get:
+      summary: Info for a specific student
+      operationId: showStudentById
+      tags:
+        - students
+      parameters:
+        - name: studentId
+          in: path
+          required: true
+          description: The id of the student to retrieve
+          schema:
+            type: string
+      responses:
+        200:
+          description: Expected response to a valid request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Student"
+  /students/{lastname}/{firstname}/{address}/{birthdate}/{studentId}:  
+    put:    
+      summary: update  student
+      operationId: updateStudent
+      tags:
+        - students
+      parameters:
+      - name: lastname
+        in: path
+        description: lastname
+        required: true
+        schema:
+          type: string
+      - name: firstname
+        in: path
+        description: firstname
+        required: true
+        schema:
+          type: string
+      - name: address
+        in: path
+        description: address
+        required: true
+        schema:
+          type: string
+      - name: birthdate
+        in: path
+        description: birthdate
+        required: true
+        schema:
+          type: string
+          format: date
+      - name: studentId
+        in: path
+        required: true
+        description: The id of the student to retrieve
+        schema:
+          type: string
+      responses:
+        200:
+          description: Expected response to a valid request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Student"
+components:
+  schemas:
+    Student:
+      required:
+        - lastname
+      properties:
+        id:
+          type: integer
+          format: int64
+        lastname:
+          type: string
+        firstname:
+          type: string
+        address:
+          type: string
+        birthdate:
+          type: string  
+          format: date
+    StudentUpdate:
+      properties:
+        lastname:
+          type: string
+        firstname:
+          type: string
+        address:
+          type: string
+        birthdate:
+          type: string  
+          format: date

@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "34740441-62bf-4f29-84f3-87ca4ef264b6",
+		"name": "API-AKKA-HTTP-TP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get students by id ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/students/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllStudents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add students",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "firstname",
+						"value": "sdsqsdqs",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/students/HAMADOU11/yasmine11/CREIL FRANCE/2020-11-04",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students",
+						"HAMADOU11",
+						"yasmine11",
+						"CREIL FRANCE",
+						"2020-11-04"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update students",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/students/api/students/HAMADOUUpdate/yasmineUpdate/CREIL FRANCE Update/2020-11-04/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students",
+						"api",
+						"students",
+						"HAMADOUUpdate",
+						"yasmineUpdate",
+						"CREIL FRANCE Update",
+						"2020-11-04",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
