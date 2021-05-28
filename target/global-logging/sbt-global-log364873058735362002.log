@@ -1,0 +1,8 @@
+[debug] > Exec(:ffff, None, None)
+[error] Expected symbol
+[error] Not a valid command: :
+[error] :ffff
+[error]  ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

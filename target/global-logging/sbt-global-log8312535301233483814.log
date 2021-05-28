@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\ext-sbelkati\AppData\Local\Temp\idea9.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\ext-sbelkati\AppData\Local\Temp\idea9.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 1.8.0_271)
+[debug]       Load.loadUnit: plugins took 152.1253ms
+[debug]       Load.loadUnit: defsScala took 0.530699ms
+[debug] [Loading] Scanning directory C:\Users\ext-sbelkati\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\ext-sbelkati\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 31.5482 ms
+[debug]           Load.resolveProject(global-plugins) took 69.6011ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\ext-sbelkati\.sbt\1.0\plugins, plugins: List(<none>))) took 147.721199ms
+[debug] [Loading] Done in C:\Users\ext-sbelkati\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 179.750299ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3339ms
+[debug]     Load.loadUnit(file:/C:/Users/ext-sbelkati/.sbt/1.0/plugins/, ...) took 344.876099ms
+[debug]   Load.apply: load took 541.0898ms
+[debug]   Load.apply: resolveProjects took 7.987301ms
+[debug]   Load.apply: finalTransforms took 72.4987ms
+[debug]   Load.apply: config.delegates took 9.5872ms
+[debug]   Load.apply: Def.make(settings)... took 1098.3647ms
+[debug]   Load.apply: structureIndex took 174.738299ms
+[debug]   Load.apply: mkStreams took 2.746399ms
+[info] loading global plugins from C:\Users\ext-sbelkati\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 5065.895301ms
+[debug]           Load.loadUnit: plugins took 39.4521ms
+[debug]           Load.loadUnit: defsScala took 0.003901ms
+[debug] [Loading] Scanning directory C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\project
+[debug]             Load.loadUnit: mkEval took 10.4883ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.0537 ms
+[info] loading settings for project scala-tp-csv-build from idea9.sbt ...
+[debug]               Load.resolveProject(scala-tp-csv-build) took 14.7493ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-tp-csv-build, base: C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\project, plugins: List(<none>))) took 18.615601ms
+[debug] [Loading] Done in C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\project, returning: (scala-tp-csv-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 243.981ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.5041ms
+[debug]         Load.loadUnit(file:/C:/Users/ext-sbelkati/Desktop/tp-scala/scala-tp-csv/project/, ...) took 291.5132ms
+[debug]       Load.apply: load took 294.0663ms
+[debug]       Load.apply: resolveProjects took 0.1575ms
+[debug]       Load.apply: finalTransforms took 14.853899ms
+[debug]       Load.apply: config.delegates took 0.5876ms
+[debug]       Load.apply: Def.make(settings)... took 121.3704ms
+[debug]       Load.apply: structureIndex took 36.3564ms
+[debug]       Load.apply: mkStreams took 0.002701ms
+[info] loading project definition from C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 871.327ms
+[debug]     Load.loadUnit: defsScala took 0.003599ms
+[debug] [Loading] Scanning directory C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv
+[debug]       Load.loadUnit: mkEval took 0.3291ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.888199 ms
+[info] loading settings for project scala-tp-csv from build.sbt ...
+[debug]         Load.resolveProject(scala-tp-csv) took 57.414299ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id scala-tp-csv, base: C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv, plugins: List(<none>))) took 61.662499ms
+[debug] [Loading] Done in C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv, returning: (scala-tp-csv)
+[debug]     Load.loadUnit: loadedProjectsRaw took 116.3477ms
+[debug]     Load.loadUnit: cleanEvalClasses took 6.019399ms
+[debug]   Load.loadUnit(file:/C:/Users/ext-sbelkati/Desktop/tp-scala/scala-tp-csv/, ...) took 994.567101ms
+[debug] Load.apply: load took 997.220001ms
+[debug] Load.apply: resolveProjects took 0.167499ms
+[debug] Load.apply: finalTransforms took 80.94ms
+[debug] Load.apply: config.delegates took 0.5819ms
+[debug] Load.apply: Def.make(settings)... took 153.5785ms
+[debug] Load.apply: structureIndex took 55.952099ms
+[debug] Load.apply: mkStreams took 0.0027ms
+[info] set current project to scala-tp-csv (in build file:/C:/Users/ext-sbelkati/Desktop/tp-scala/scala-tp-csv/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 53542 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 53542, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to scala-tp-csv (in build file:/C:/Users/ext-sbelkati/Desktop/tp-scala/scala-tp-csv/)
+[debug] > Exec(idea-shell, None, None)

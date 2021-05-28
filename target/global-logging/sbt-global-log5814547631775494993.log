@@ -1,0 +1,19 @@
+[debug] > Exec({file:/C:/Users/ext-sbelkati/Desktop/tp-scala/scala-tp-csv/}scala-tp-csv/compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\classes ...
+[error] C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\src\main\scala\Inscription.scala:5:3: expected class or object definition
+[error]   val entete = "code_etu universite lib_diplome niveau_dans_le_diplome libelle_discipline_diplome code_etape libelle_etape libelle_composante libelle_academie_bac annee_bac regroupement_bac annee_inscription".split(' ').toVector
+[error]   ^
+[error] C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\src\main\scala\Inscription.scala:23:3: expected class or object definition
+[error]   def read_csv(filename: String): List[Vector[String]] = {
+[error]   ^
+[error] C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\src\main\scala\Inscription.scala:33:3: expected class or object definition
+[error]   def ecrire(lignes:List[Vector[String]], filename: String) {
+[error]   ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 5 s, completed 23 mai 2021 12:28:10
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,13 @@
+[debug] > Exec({file:/C:/Users/ext-sbelkati/Desktop/tp-scala/scala-tp-csv/}scala-tp-csv/compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\classes ...
+[warn] 3 deprecations (since 2.13.0)
+[warn] 1 deprecation (since 2.13.3)
+[warn] 4 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[success] Total time: 10 s, completed 23 mai 2021 12:29:22
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

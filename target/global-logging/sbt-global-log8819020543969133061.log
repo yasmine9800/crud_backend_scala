@@ -1,0 +1,7 @@
+[debug] > Exec({file:/C:/Users/ext-sbelkati/Desktop/tp-scala/scala-tp-csv/}scala-tp-csv/compilers, None, None)
+[debug] Evaluating tasks: compilers
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 23 mai 2021 13:01:10
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

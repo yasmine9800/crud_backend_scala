@@ -1,0 +1,15 @@
+[debug] Packaging C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\scala-tp-csv_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	InscriptionUtil$Inscription$.class
+[debug] 	  C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\classes\InscriptionUtil$Inscription$.class
+[debug] 	InscriptionUtil$Inscription.class
+[debug] 	  C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\classes\InscriptionUtil$Inscription.class
+[debug] 	InscriptionUtil.class
+[debug] 	  C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\classes\InscriptionUtil.class
+[debug] 	main$.class
+[debug] 	  C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\classes\main$.class
+[debug] 	main$delayedInit$body.class
+[debug] 	  C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\classes\main$delayedInit$body.class
+[debug] 	main.class
+[debug] 	  C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\classes\main.class
+[debug] Done packaging.

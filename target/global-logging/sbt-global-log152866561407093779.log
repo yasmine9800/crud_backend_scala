@@ -1,0 +1,8 @@
+[debug] > Exec(samir, None, None)
+[error] Not a valid command: samir
+[error] Not a valid project ID: samir
+[error] Expected ':'
+[error] Not a valid key: samir (similar: name, skip, streams)
+[error] samir
+[error]      ^
+[debug] > Exec(idea-shell, None, None)

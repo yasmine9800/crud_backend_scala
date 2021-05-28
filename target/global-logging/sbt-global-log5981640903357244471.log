@@ -1,0 +1,8 @@
+[debug] > Exec(scala-tp-csv, None, None)
+[error] Not a valid command: scala-tp-csv
+[error] Expected '/' (if selecting a project)
+[error] Expected ':'
+[error] Not a valid key: scala-tp-csv (similar: scalaArtifacts)
+[error] scala-tp-csv
+[error]             ^
+[debug] > Exec(idea-shell, None, None)

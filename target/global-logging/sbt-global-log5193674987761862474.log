@@ -1,0 +1,6 @@
+[debug] > Exec({file:/C:/Users/ext-sbelkati/Desktop/tp-scala/scala-tp-csv/}scala-tp-csv/console, None, None)
+[debug] Evaluating tasks: Compile / console
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\classes ...
+[info] done compiling
+[info] Starting scala interpreter...

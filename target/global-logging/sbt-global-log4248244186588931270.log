@@ -1,0 +1,14 @@
+[debug] > Exec({file:/C:/Users/ext-sbelkati/Desktop/tp-scala/scala-tp-csv/}scala-tp-csv/run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\target\scala-2.13\classes ...
+[error] C:\Users\ext-sbelkati\Desktop\tp-scala\scala-tp-csv\src\main\scala\InscriptionUtil.scala:21:13: not enough arguments for method ecrire: (lignes: List[Vector[String]], entete: Vector[String], filename: String, universite: String): Unit.
+[error] Unspecified value parameter universite.
+[error]       ecrire(variable,variable.head,fsdir +"/inscription_csv.csv")
+[error]             ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 10 s, completed 27 mai 2021 09:33:08
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

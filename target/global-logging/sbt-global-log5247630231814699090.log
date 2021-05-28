@@ -1,0 +1,5 @@
+[debug] > Exec({, None, None)
+[error] Invalid URI
+[error] {
+[error]  ^
+[debug] > Exec(idea-shell, None, None)
